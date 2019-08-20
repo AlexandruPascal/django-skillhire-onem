@@ -1,0 +1,15 @@
+<section>
+  <header>{{ header }}</header>
+  <p>{{ body_pre }}</p>
+  <ul>
+    {% for item in items %}
+    <li>
+      <a href='{{ item['href'] }}'
+         method='{{ item['method'] }}'>
+          {{ item['description'] }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <footer>{{ footer }}</footer>
+</section>

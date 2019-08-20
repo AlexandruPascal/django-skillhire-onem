@@ -1,0 +1,9 @@
+{
+    "name": "Django ONEm SkillHire app",
+    "description": "Django ONEm SkillHire app",
+    "repository": "https://github.com/AlexandruPascal/django-skillhire-onem",
+    "keywords": ["django", "onem", "skillhire", "sms", "app"],
+    "env": {
+        "DISABLE_COLLECTSTATIC": "1"
+    }
+}
