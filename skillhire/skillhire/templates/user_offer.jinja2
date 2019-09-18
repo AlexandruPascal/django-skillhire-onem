@@ -1,0 +1,9 @@
+<form skip-confirmation='true' method='POST' action='/user_offer/{{ offer_id }}/'>
+  <section name='user_action'>
+    <header>modify/delete your offer</header>
+    <p>Current skill description: {{ skill_description }}</p>
+    <p>New skill description must have 100 characters or fewer.</p>
+    <input type="text"/>
+    <footer>Reply with text/DELETE/BACK</footer>
+  </section>
+</form>

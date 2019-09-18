@@ -1,0 +1,45 @@
+<section>
+  <header>HOME</header>
+  {% for item in body_pre_items %}
+    <p>{{ item }}</p>
+  {% endfor %}
+  <ul>
+    <li>
+      <a href='/all_offers'
+         method='GET'>
+          All offers ({{ all_offers_count }})
+      </a>
+    </li>
+    <li>
+      <a href='/user_offers'
+         method='GET'>
+          Your offers ({{ user_offers_count }})
+      </a>
+    </li>
+    <li>
+      <a href='/add_offer'
+         method='GET'>
+          Add offer
+      </a>
+    </li>
+    <li>
+      <a href='/all_views'
+         method='GET'>
+          Views ({{ user_views_count }})
+      </a>
+    </li>
+    <li>
+      <a href='/history'
+         method='GET'>
+          History ({{ user_history_count }})
+      </a>
+    </li>
+    <li>
+      <a href='/profile'
+         method='GET'>
+          Profile {{ profile_status }}%
+      </a>
+    </li>
+  </ul>
+  <footer>Reply A-F</footer>
+</section>

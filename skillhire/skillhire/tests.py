@@ -1,3 +1,6 @@
 from django.test import TestCase
+from skillhire.models import Industry
 
-# Create your tests here.
+
+class IndustryTestCase(TestCase):
+    fixtures = ['industry.json']

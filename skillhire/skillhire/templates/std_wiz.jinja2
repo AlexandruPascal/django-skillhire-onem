@@ -1,0 +1,10 @@
+<form skip-confirmation='{{ skip_confirmation }}' method='{{ method }}' action='{{ action }}'>
+  <section name='std_wiz'>
+    <header>{{ header }}</header>
+    {% for item in label_items %}
+      <p>{{ item }}</p>
+    {% endfor %}
+    <input type="text"/>
+    <footer>{{ footer }}</footer>
+  </section>
+</form>

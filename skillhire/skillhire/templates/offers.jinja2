@@ -1,0 +1,17 @@
+<section>
+  <header>{{ header }} offers</header>
+  {% for item in body_pre_items %}
+    <p>{{ item }}</p>
+  {% endfor %}
+  <ul>
+    {% for item in items %}
+    <li>
+      <a href='/{{ item['user_'] }}offer/{{ item['offer_id'] }}'
+         method='GET'>
+          {{ item['industry'] }}: {{ item['skill_description'] }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <footer>Select offer</footer>
+</section>

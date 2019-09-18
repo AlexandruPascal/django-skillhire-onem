@@ -1,0 +1,23 @@
+<form skip-confirmation='true' method='POST' action='/add_offer/'>
+  <section name='industry_category'>
+      <header>add offer</header>
+    <label>Select an industry category.</label>
+    <ul>
+      {% for industry in industries %}
+      <li value='{{ industry['id'] }}'>
+        <a href='/add_offer/'
+           method='POST'>
+            {{ industry['industry_name'] }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <footer>Reply with option</footer>
+  </section>
+  <section name='skill_description'>
+    <header>add offer</header>
+    <label>Describe your skill. 100 characters or fewer.</label>
+    <input type="text"/>
+    <footer>Reply with text</footer>
+  </section>
+</form>

@@ -13,8 +13,11 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 import django_heroku
 
+from onemsdk.config import set_static_dir
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+set_static_dir(os.path.join(BASE_DIR, 'skillhire/skillhire/templates'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -24,8 +27,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1h!n%e78n^gwd)2$lwi=t^=!_*by0738up6@4ov55nml76v*vr'
 
 # permissions granted for User endpoints on restdapi
-APP_APIKEY_POC = 'OTSxKxwU.f499da74-ea4c-4cac-ade7-d97600f0052d'
-APP_APIKEY_STAGING = 'bN2gY_1O.b4617b6b-cf3a-480f-a47e-a057961b9516 '
+APP_APIKEY_POC = 'fkCKvSm8.2d1ac4d3-7347-4187-ade1-607b870d9f38 '
+APP_APIKEY_STAGING = 'ZhJXOls6.95939379-998f-4c5e-b08f-8f07d0d10653'
 
 # restdapi URLs for dev and prod
 RESTD_API_URL_POC = 'https://developer-api-poc.onem.zone/api/v1/{endpoint}'
@@ -47,9 +50,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'skillhire.skillhire',
+    'skillhire.fixtures',
 ]
 
-# AUTH_USER_MODEL = 'skillhire.User'
+AUTH_USER_MODEL = 'skillhire.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -141,3 +145,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 django_heroku.settings(locals())
 
 STATIC_URL = '/static/'
+
+
+# Fixtures files (JSON, XML)
+
+FIXTURE_DIRS = (os.path.join(BASE_DIR, 'skillhire/fixtures'),)

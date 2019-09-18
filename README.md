@@ -1,21 +1,23 @@
-#IMDB
+#Skillhire
 SkillHire service app written in Django/Python using ONEmSDK.
 
 ### Quickstart
 
 1. `git clone git@github.com:AlexandruPascal/django-skillhire-onem.git`
 2. `pip install -r requirements.txt`
-3. `python manage.py migrate`
-4. `python manage.py runserver`
-5. `ngrok http 8000`
+3. `python manage.py makemigrations skillhire`
+4. `python manage.py migrate --run-syncdb`
+5. `python manage.py loaddata industry.json`
+6. `python manage.py runserver`
+7. `ngrok http 8000`
 
 Works with Python3.7. Preferably to work in a virtual environment, use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io) to create a virtual environment.
 
 ### Usage
 
-Register the app on the ONEm developer portal (https://developer-portal-poc.onem.zone/);
+Register the app on the ONEm developer portal (http://testtool.dhq.onem:6060/);
 Set the callback URL to the forwarding address obtained from ngrok's output;
-Go to https://poc.onem.zone/ and send the registered name with # in front
+Go to https://testtool.dhq.onem/ and send the registered name with # in front
 
 ### Deploy to Heroku
 

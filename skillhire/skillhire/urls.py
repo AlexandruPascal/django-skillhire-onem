@@ -33,7 +33,7 @@ urlpatterns = [
     ),
     path(
         'history/', views.HistoryView.as_view(),
-        name='hisotry'
+        name='history'
     ),
     path(
         'profile/', views.ProfileView.as_view(),
@@ -54,5 +54,9 @@ urlpatterns = [
     path(
         'email/', views.EmailView.as_view(),
         name='email'
+    ),
+    path(
+        'location/', views.LocationView.as_view(),
+        name='location'
     ),
 ]

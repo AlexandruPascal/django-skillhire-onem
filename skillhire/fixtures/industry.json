@@ -1,0 +1,331 @@
+[
+  {
+    "model": "skillhire.industry",
+    "pk": 1,
+    "fields": {
+      "industry_name": "Accounting"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 2,
+    "fields": {
+      "industry_name": "Administrative"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 3,
+    "fields": {
+      "industry_name": "Analysis"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 4,
+    "fields": {
+      "industry_name": "Analytics"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 5,
+    "fields": {
+      "industry_name": "Automotive"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 6,
+    "fields": {
+      "industry_name": "Banking"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 7,
+    "fields": {
+      "industry_name": "Bookkeeping"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 8,
+    "fields": {
+      "industry_name": "Carpentry"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 9,
+    "fields": {
+      "industry_name": "Computer"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 10,
+    "fields": {
+      "industry_name": "Construction"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 11,
+    "fields": {
+      "industry_name": "Data"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 12,
+    "fields": {
+      "industry_name": "Design"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 13,
+    "fields": {
+      "industry_name": "Editing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 14,
+    "fields": {
+      "industry_name": "Electrical"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 15,
+    "fields": {
+      "industry_name": "Engineering"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 16,
+    "fields": {
+      "industry_name": "Financial"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 17,
+    "fields": {
+      "industry_name": "Hardware"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 18,
+    "fields": {
+      "industry_name": "Healthcare"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 19,
+    "fields": {
+      "industry_name": "Information"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 20,
+    "fields": {
+      "industry_name": "Technology"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 21,
+    "fields": {
+      "industry_name": "Languages"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 22,
+    "fields": {
+      "industry_name": "Legal"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 23,
+    "fields": {
+      "industry_name": "Manufacturing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 24,
+    "fields": {
+      "industry_name": "Math"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 25,
+    "fields": {
+      "industry_name": "Mechanical"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 26,
+    "fields": {
+      "industry_name": "Medical"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 27,
+    "fields": {
+      "industry_name": "Nursing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 28,
+    "fields": {
+      "industry_name": "Optimization"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 29,
+    "fields": {
+      "industry_name": "Pharmaceutical"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 30,
+    "fields": {
+      "industry_name": "Pipefitter"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 31,
+    "fields": {
+      "industry_name": "Plumbing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 32,
+    "fields": {
+      "industry_name": "Project"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 33,
+    "fields": {
+      "industry_name": "Management"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 34,
+    "fields": {
+      "industry_name": "Programming"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 35,
+    "fields": {
+      "industry_name": "Research"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 36,
+    "fields": {
+      "industry_name": "Reporting"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 37,
+    "fields": {
+      "industry_name": "Science"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 38,
+    "fields": {
+      "industry_name": "Software"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 39,
+    "fields": {
+      "industry_name": "Spreadsheets"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 40,
+    "fields": {
+      "industry_name": "Teaching"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 41,
+    "fields": {
+      "industry_name": "Technology"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 42,
+    "fields": {
+      "industry_name": "Testing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 43,
+    "fields": {
+      "industry_name": "Translation"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 44,
+    "fields": {
+      "industry_name": "Transcription"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 45,
+    "fields": {
+      "industry_name": "Word"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 46,
+    "fields": {
+      "industry_name": "Processing"
+    }
+  },
+  {
+    "model": "skillhire.industry",
+    "pk": 47,
+    "fields": {
+      "industry_name": "Writing"
+    }
+  }
+]

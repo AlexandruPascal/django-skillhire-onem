@@ -1,6 +1,8 @@
 <section>
   <header>{{ header }}</header>
-  <p>{{ body_pre }}</p>
+  {% for item in body_pre_items %}
+    <p>{{ item }}</p>
+  {% endfor %}
   <ul>
     {% for item in items %}
     <li>
